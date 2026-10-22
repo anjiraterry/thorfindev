@@ -134,19 +134,19 @@ export default function HomePage() {
 
             <ul className="nav-links">
               <li className="nav-link-item">
-                <a href="#about" className="nav-link">// about</a>
+                <a href="#about" className="nav-link">{"// about"}</a>
               </li>
               <li className="nav-link-item">
-                <a href="#projects" className="nav-link">// projects</a>
+                <a href="#projects" className="nav-link">{"// projects"}</a>
               </li>
               <li className="nav-link-item">
-                <a href="#team" className="nav-link">// team</a>
+                <a href="#team" className="nav-link">{"// team"}</a>
               </li>
               <li className="nav-link-item">
-                <a href="#testimonials" className="nav-link">// testimonials</a>
+                <a href="#testimonials" className="nav-link">{"// testimonials"}</a>
               </li>
               <li className="nav-link-item">
-                <a href="#contact" className="nav-link">// contact</a>
+                <a href="#contact" className="nav-link">{"// contact"}</a>
               </li>
             </ul>
 
@@ -161,7 +161,7 @@ export default function HomePage() {
             <div className="hero-header-block">
               <div className="hero-badge">
              
-                <span>// COMMERCE  &amp; FINTECH INFRASTRUCTURE</span>
+                <span>{"// COMMERCE & FINTECH INFRASTRUCTURE"}</span>
               </div>
               <h1>Reliable software for commerce and finance.</h1>
               <p className="hero-subhead">
@@ -183,7 +183,7 @@ export default function HomePage() {
 
           {/* Section: About */}
           <section id="about" className="content-section">
-            <div className="section-label-col">// about</div>
+            <div className="section-label-col">{"// about"}</div>
             <div className="section-content-col">
               <div className="section-statement">
                 We are a small senior team that builds the systems behind online stores, payments and financial products, then stays to run them.
@@ -214,7 +214,7 @@ export default function HomePage() {
 
           {/* Section: Projects (Grid with Screenshots of live sites) */}
           <section id="projects" className="content-section">
-            <div className="section-label-col">// projects</div>
+            <div className="section-label-col">{"// projects"}</div>
             <div className="section-content-col">
               <div className="section-statement">
                 Selected systems engineered for scale, zero downtime, and high transaction volume.
@@ -280,7 +280,7 @@ export default function HomePage() {
 
           {/* Section: Team */}
           <section id="team" className="content-section">
-            <div className="section-label-col">// team</div>
+            <div className="section-label-col">{"// team"}</div>
             <div className="section-content-col">
               <div className="section-statement">
                 Engineers with hands on real transaction volume, ledgers, and distributed systems.
@@ -314,7 +314,7 @@ export default function HomePage() {
 
           {/* Section: Testimonials */}
           <section id="testimonials" className="content-section">
-            <div className="section-label-col">// testimonials</div>
+            <div className="section-label-col">{"// testimonials"}</div>
             <div className="section-content-col">
               <div className="section-statement">
                 Direct feedback from founders and engineering leaders running our software.
@@ -338,7 +338,7 @@ export default function HomePage() {
 
           {/* Section: Contact */}
           <section id="contact" className="content-section">
-            <div className="section-label-col">// contact</div>
+            <div className="section-label-col">{"// contact"}</div>
             <div className="section-content-col">
               <div className="contact-layout">
                 <div>
@@ -351,17 +351,17 @@ export default function HomePage() {
 
                   <div className="contact-meta-list">
                     <div className="contact-meta-item">
-                      <span className="contact-meta-label">// reply time</span>
+                      <span className="contact-meta-label">{"// reply time"}</span>
                       <span className="contact-meta-val">We usually reply within 24 hours.</span>
                     </div>
                     <div className="contact-meta-item">
-                      <span className="contact-meta-label">// email</span>
+                      <span className="contact-meta-label">{"// email"}</span>
                       <a href="mailto:hello@thorfin.dev" className="contact-meta-val" style={{ color: "var(--color-accent)" }}>
                         hello@thorfin.dev
                       </a>
                     </div>
                     <div className="contact-meta-item">
-                      <span className="contact-meta-label">// base</span>
+                      <span className="contact-meta-label">{"// base"}</span>
                       <span className="contact-meta-val">Remote-first • London &amp; New York</span>
                     </div>
                   </div>
@@ -390,7 +390,7 @@ export default function HomePage() {
                   ) : (
                     <form className="contact-form" onSubmit={handleSubmit}>
                       <div className="form-group">
-                        <label className="form-label" htmlFor="name">// your name</label>
+                        <label className="form-label" htmlFor="name">{"// your name"}</label>
                         <input
                           id="name"
                           type="text"
@@ -403,7 +403,7 @@ export default function HomePage() {
                       </div>
 
                       <div className="form-group">
-                        <label className="form-label" htmlFor="email">// work email</label>
+                        <label className="form-label" htmlFor="email">{"// work email"}</label>
                         <input
                           id="email"
                           type="email"
@@ -416,7 +416,7 @@ export default function HomePage() {
                       </div>
 
                       <div className="form-group">
-                        <label className="form-label" htmlFor="projectType">// project type</label>
+                        <label className="form-label" htmlFor="projectType">{"// project type"}</label>
                         <select
                           id="projectType"
                           className="form-select"
@@ -431,7 +431,7 @@ export default function HomePage() {
                       </div>
 
                       <div className="form-group">
-                        <label className="form-label" htmlFor="message">// project overview &amp; timeline</label>
+                        <label className="form-label" htmlFor="message">{"// project overview & timeline"}</label>
                         <textarea
                           id="message"
                           required
@@ -464,7 +464,7 @@ export default function HomePage() {
               <span>© 2026 Thorfin Dev Inc. All rights reserved.</span>
             </div>
             <div>
-              <span className="mono">// reliable software for commerce and money</span>
+              <span className="mono">{"// reliable software for commerce and money"}</span>
             </div>
           </footer>
         </div>

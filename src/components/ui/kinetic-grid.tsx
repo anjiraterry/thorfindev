@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useRef, useCallback, ReactNode } from "react";
-import { cn } from "@/lib/utils";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -64,7 +63,6 @@ export default function KineticGrid({
   const mouseRef = useRef<Point>({ x: -9999, y: -9999 });
   const targetMouseRef = useRef<Point>({ x: -9999, y: -9999 });
   const ripplesRef = useRef<Ripple[]>([]);
-  const rafRef = useRef<number>(0);
   const sizeRef = useRef<{ w: number; h: number }>({ w: 0, h: 0 });
 
   // ── Warp ────────────────────────────────────────────────────────────────────
@@ -306,24 +304,7 @@ export default function KineticGrid({
     [getWarpedPoint, globalColor],
   );
 
-  // ── Animation loop ──────────────────────────────────────────────────────────
-
-  const animate = useCallback(
-    (now: number) => {
-      const m = mouseRef.current;
-      const t = targetMouseRef.current;
-
-      m.x = lerpN(m.x, t.x, LERP_SPEED);
-      m.y = lerpN(m.y, t.y, LERP_SPEED);
-
-      draw(now);
-      rafRef.current = requestAnimationFrame(animate);
-    },
-    [draw],
-  );
-
-  // ── Setup ───────────────────────────────────────────────────────────────────
-
+  // ── Setup & Animation loop ──────────────────────────────────────────────────
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -359,17 +340,30 @@ export default function KineticGrid({
 
     window.addEventListener("mousemove", onMouseMove);
     window.addEventListener("click", onClick);
-    rafRef.current = requestAnimationFrame(animate);
+
+    let animationFrameId = 0;
+    const loop = (now: number) => {
+      const m = mouseRef.current;
+      const t = targetMouseRef.current;
+
+      m.x = lerpN(m.x, t.x, LERP_SPEED);
+      m.y = lerpN(m.y, t.y, LERP_SPEED);
+
+      draw(now);
+      animationFrameId = requestAnimationFrame(loop);
+    };
+
+    animationFrameId = requestAnimationFrame(loop);
 
     return () => {
       window.removeEventListener("resize", setSize);
       window.removeEventListener("mousemove", onMouseMove);
       window.removeEventListener("click", onClick);
-      if (rafRef.current) {
-        cancelAnimationFrame(rafRef.current);
+      if (animationFrameId) {
+        cancelAnimationFrame(animationFrameId);
       }
     };
-  }, [animate]);
+  }, [draw]);
 
   // ── Render ──────────────────────────────────────────────────────────────────
 
