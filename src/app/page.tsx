@@ -186,7 +186,7 @@ export default function HomePage() {
             <div className="section-label-col">{"// about"}</div>
             <div className="section-content-col">
               <div className="section-statement">
-                We are a small senior team that builds the systems behind online stores, payments and financial products, then stays to run them.
+                We are an engineering team based across Abuja and Lagos, building and maintaining the critical infrastructure behind online stores, fintech ledgers, and payment platforms.
               </div>
 
               <div className="about-cells-grid">
@@ -351,8 +351,12 @@ export default function HomePage() {
 
                   <div className="contact-meta-list">
                     <div className="contact-meta-item">
-                      <span className="contact-meta-label">{"// reply time"}</span>
-                      <span className="contact-meta-val">We usually reply within 24 hours.</span>
+                      <span className="contact-meta-label">{"// base"}</span>
+                      <span className="contact-meta-val">Abuja &amp; Lagos, Nigeria</span>
+                    </div>
+                    <div className="contact-meta-item">
+                      <span className="contact-meta-label">{"// timezone"}</span>
+                      <span className="contact-meta-val">West Africa Time (WAT • UTC+1)</span>
                     </div>
                     <div className="contact-meta-item">
                       <span className="contact-meta-label">{"// email"}</span>
@@ -361,8 +365,8 @@ export default function HomePage() {
                       </a>
                     </div>
                     <div className="contact-meta-item">
-                      <span className="contact-meta-label">{"// base"}</span>
-                      <span className="contact-meta-val">Remote-first • London &amp; New York</span>
+                      <span className="contact-meta-label">{"// reply time"}</span>
+                      <span className="contact-meta-val">Within 24 hours</span>
                     </div>
                   </div>
                 </div>
@@ -396,7 +400,7 @@ export default function HomePage() {
                           type="text"
                           required
                           className="form-input"
-                          placeholder="Alex Mercer"
+                          placeholder="e.g. Babatunde Adeyemi"
                           value={formState.name}
                           onChange={(e) => setFormState({ ...formState, name: e.target.value })}
                         />
@@ -409,7 +413,7 @@ export default function HomePage() {
                           type="email"
                           required
                           className="form-input"
-                          placeholder="alex@company.com"
+                          placeholder="name@company.com"
                           value={formState.email}
                           onChange={(e) => setFormState({ ...formState, email: e.target.value })}
                         />
@@ -437,7 +441,7 @@ export default function HomePage() {
                           required
                           rows={4}
                           className="form-textarea"
-                          placeholder="Tell us about the product, current stack, scale requirements and timeline..."
+                          placeholder="Tell us about your product, expected scale, integration requirements, and target timeline..."
                           value={formState.message}
                           onChange={(e) => setFormState({ ...formState, message: e.target.value })}
                         />
@@ -461,7 +465,7 @@ export default function HomePage() {
           {/* Footer */}
           <footer className="site-footer">
             <div>
-              <span>© 2026 Thorfin Dev Inc. All rights reserved.</span>
+              <span>© 2026 Thorfin Dev Ltd. Abuja &amp; Lagos, Nigeria. All rights reserved.</span>
             </div>
             <div>
               <span className="mono">{"// reliable software for commerce and money"}</span>
