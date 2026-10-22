@@ -76,10 +76,10 @@ const SEED_PROJECTS = [
 ];
 
 const TEAM = [
-  { initials: "FI", name: "Folarinimi Isreal", role: "Principal & Systems Architect", linkedin: "https://linkedin.com" },
-  { initials: "AT", name: "Agbo Terry", role: "Lead Backend & Distributed Systems", linkedin: "https://linkedin.com" },
-  { initials: "AJ", name: "Ayebaemi Jephtah", role: "Senior Fintech & Payments Engineer", linkedin: "https://linkedin.com" },
-  { initials: "FM", name: "Fatimah Muhammed", role: "Senior Frontend & Product Engineer", linkedin: "https://linkedin.com" },
+  { initials: "FI", name: "Folarinimi Isreal", role: "Principal & Systems Architect", linkedin: "https://www.linkedin.com/in/israelfolaranmia1/" },
+  { initials: "AT", name: "Agbo Terry", role: "Lead Backend & Distributed Systems", linkedin: "https://www.linkedin.com/in/anjiraterry/" },
+  { initials: "AJ", name: "Ayebaemi Jephtah", role: "Senior Fintech & Payments Engineer", linkedin: "https://www.linkedin.com/in/ayebaemi-jephthah-302098286/" },
+  { initials: "FM", name: "Fatimah Muhammed", role: "Senior Frontend & Product Engineer", linkedin: "https://www.linkedin.com/in/fatimah-muhammed-9868071b1" },
 ];
 
 const TESTIMONIALS = [
