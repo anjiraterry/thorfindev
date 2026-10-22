@@ -79,7 +79,7 @@ const TEAM = [
   { initials: "AT", name: "Agbo Terry", role: "Principal & Systems Architect", linkedin: "https://www.linkedin.com/in/anjiraterry/" },
   { initials: "FI", name: "Folarinimi Isreal", role: "Lead & Fullstack Engineer", linkedin: "https://www.linkedin.com/in/israelfolaranmia1/" },
   { initials: "AJ", name: "Ayebaemi Jephtah", role: "Program Analyst & Quality Assurance", linkedin: "https://www.linkedin.com/in/ayebaemi-jephthah-302098286/" },
-  { initials: "FM", name: "Fatimah Muhammed", role: "Technical Product Manager", linkedin: "https://www.linkedin.com/in/fatimah-muhammed-9868071b1" },
+  { initials: "FM", name: "Fatimah Muhammed", role: "Technical Product Manager & Operations", linkedin: "https://www.linkedin.com/in/fatimah-muhammed-9868071b1" },
 ];
 
 const TESTIMONIALS = [
