@@ -364,6 +364,12 @@ export default function HomePage() {
                       </a>
                     </div>
                     <div className="contact-meta-item">
+                      <span className="contact-meta-label">{"// phone"}</span>
+                      <a href="tel:+2348166960635" className="contact-meta-val" style={{ color: "var(--color-accent)" }}>
+                        +234 816 696 0635
+                      </a>
+                    </div>
+                    <div className="contact-meta-item">
                       <span className="contact-meta-label">{"// reply time"}</span>
                       <span className="contact-meta-val">Within 24 hours</span>
                     </div>
