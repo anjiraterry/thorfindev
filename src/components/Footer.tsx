@@ -1,6 +1,6 @@
 const cols = [
   ["Company", [["About", "#about"], ["Projects", "#projects"], ["Team", "#team"]]],
-  ["Connect", [["LinkedIn", "https://www.linkedin.com/company/your-handle"], ["GitHub", "https://github.com/your-handle"], ["Email", "mailto:hello@thorfin.dev"]]],
+  ["Connect", [["LinkedIn", "https://www.linkedin.com/company/your-handle"], ["GitHub", "https://github.com/your-handle"], ["Email", "mailto:hello@thorfin.space"]]],
 ] as const;
 
 export default function Footer() {

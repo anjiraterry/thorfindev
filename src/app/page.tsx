@@ -359,8 +359,8 @@ export default function HomePage() {
                     </div>
                     <div className="contact-meta-item">
                       <span className="contact-meta-label">{"// email"}</span>
-                      <a href="mailto:hello@thorfin.dev" className="contact-meta-val" style={{ color: "var(--color-accent)" }}>
-                        hello@thorfin.dev
+                      <a href="mailto:hello@thorfin.space" className="contact-meta-val" style={{ color: "var(--color-accent)" }}>
+                        hello@thorfin.space
                       </a>
                     </div>
                     <div className="contact-meta-item">

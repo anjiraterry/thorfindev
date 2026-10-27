@@ -11,7 +11,7 @@ export default function ContactForm() {
     const d = new FormData(e.currentTarget);
     // Swap for fetch("/api/contact", ...) when you add a backend or a service like Resend.
     const body = `${d.get("message")}\n\nFrom: ${d.get("name")} (${d.get("email")})`;
-    window.location.href = `mailto:hello@thorfin.dev?subject=${encodeURIComponent("Project enquiry: " + d.get("type"))}&body=${encodeURIComponent(body)}`;
+    window.location.href = `mailto:hello@thorfin.space?subject=${encodeURIComponent("Project enquiry: " + d.get("type"))}&body=${encodeURIComponent(body)}`;
     setSent(true);
   }
 
