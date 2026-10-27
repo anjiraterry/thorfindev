@@ -50,28 +50,22 @@ const PROJECTS: Project[] = [
 
 const SEED_PROJECTS = [
   {
-    name: "Asfaar Visa Application",
-    meta: "GovTech & Travel, 2024",
-    description: "Digital visa application and immigration document verification portal processing international traveler submissions with encrypted document storage and automated status pipelines.",
-    tags: ["Next.js", "TypeScript", "PostgreSQL", "AWS S3"],
+    name: "ConvROI",
+    meta: "Conversion & Growth Intelligence, 2024",
+    description: "Enterprise sales pipeline automation and conversion ROI tracking engine featuring multi-channel attribution, automated lead scoring, and CRM synchronization.",
+    tags: ["Next.js", "TypeScript", "PostgreSQL", "Redis"],
   },
   {
-    name: "Future Afrika",
-    meta: "SME & Investments, 2024",
-    description: "SME capital raising and investor syndicate platform connecting African enterprises with growth financing, featuring institutional KYC onboarding and real-time portfolio tracking.",
-    tags: ["React", "FastAPI", "Python", "Redis"],
+    name: "Real Estate Lead Management CRM",
+    meta: "PropTech & Sales CRM, 2024",
+    description: "Specialized lead management system and agent assignment pipeline for real estate brokerages, featuring automated portal lead ingestion, inspection scheduling, and deal stage analytics.",
+    tags: ["React", "Node.js", "PostgreSQL", "Docker"],
   },
   {
     name: "Aparte",
     meta: "Real Estate Discovery, 2023",
     description: "Property discovery engine and rental management platform with geolocation mapping, verified tenant screening, inspection booking, and digital lease workflows.",
     tags: ["Next.js", "Node.js", "Mapbox", "PostgreSQL"],
-  },
-  {
-    name: "Local Buddy",
-    meta: "Artisan Discovery, 2023",
-    description: "Hyperlocal on-demand artisan and skilled trade professional discovery application with verified provider badges, location matching, rating tracking, and escrow payouts.",
-    tags: ["TypeScript", "GraphQL", "React Native", "Docker"],
   },
 ];
 
@@ -84,19 +78,24 @@ const TEAM = [
 
 const TESTIMONIALS = [
   {
-    quote: "Thorfin Dev redesigned our payment processing pipelines from scratch. We scaled through peak transaction volume with zero failed webhooks and 99.999% ledger accuracy.",
-    name: "Babatunde Adeyemi",
-    role: "VP of Engineering, Paylane",
+    quote: "Thorfin Dev architected and deployed Rydway’s dispatch web engine with Cloudflare Workers and real-time telematics. The system handles fleet routes and booking queues with sub-200ms response times and zero dropped events.",
+    name: "Chris O.",
+    role: "Head of Product, Rydway — SWGlobal",
   },
   {
-    quote: "Their team understands compliance and double-entry accounting as deeply as distributed systems. An invaluable partner for any high-stakes fintech product launch.",
-    name: "Chioma Okonkwo",
-    role: "Head of Product, Kente Marketplace",
+    quote: "Scaling our multi-vendor catalog on Ecommerce Hub was seamless. Thorfin built an inventory orchestration and checkout engine that handled our peak flash sales without a single dropped cart session.",
+    name: "Victoria E.",
+    role: "Co-Founder & COO, Viiv Stores",
   },
   {
-    quote: "Rare to find senior engineers who can architect complex backend distributed transactions and also build crisp, sub-100ms frontend experiences. Thorough and dependable.",
-    name: "Olumide Bakare",
-    role: "Director of Technology, OmniCommerce",
+    quote: "Thorfin engineered the core ledger and payout pipelines that power Bedrock Finance. Having mathematically verified double-entry accounting and automated reconciliation made our compliance audits completely friction-free.",
+    name: "Tope A.",
+    role: "CTO, Bedrock Finance",
+  },
+  {
+    quote: "Thorfin transformed our operational workflow from manual inquiries into an automated on-demand booking and billing engine. The customer experience is world-class and our scheduling overhead dropped dramatically.",
+    name: "Favour N.",
+    role: "Operations Lead, One and Only Cleaning Services",
   },
 ];
 

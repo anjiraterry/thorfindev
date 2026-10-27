@@ -19,7 +19,8 @@ export const team = [
 ];
 
 export const testimonials = [
-  { quote: "They shipped our checkout in six weeks and it handled Black Friday without a single incident.", name: "Chioma N.", role: "COO, Kente Market" },
-  { quote: "Thorfin asked about failure cases before we did. Our ledger has passed every audit since.", name: "David A.", role: "CTO, Paylane" },
-  { quote: "Clear updates, honest estimates and code our own engineers were glad to inherit.", name: "Sarah M.", role: "Founder, Orbit POS" },
+  { quote: "Thorfin Dev architected and deployed Rydway’s dispatch web engine with Cloudflare Workers and real-time telematics. The system handles fleet routes and booking queues with sub-200ms response times and zero dropped events.", name: "Chris O.", role: "Head of Product, Rydway — SWGlobal" },
+  { quote: "Scaling our multi-vendor catalog on Ecommerce Hub was seamless. Thorfin built an inventory orchestration and checkout engine that handled our peak flash sales without a single dropped cart session.", name: "Victoria E.", role: "Co-Founder & COO, Viiv Stores" },
+  { quote: "Thorfin engineered the core ledger and payout pipelines that power Bedrock Finance. Having mathematically verified double-entry accounting and automated reconciliation made our compliance audits completely friction-free.", name: "Tope A.", role: "CTO, Bedrock Finance" },
+  { quote: "Thorfin transformed our operational workflow from manual inquiries into an automated on-demand booking and billing engine. The customer experience is world-class and our scheduling overhead dropped dramatically.", name: "Favour N.", role: "Operations Lead, One and Only Cleaning Services" },
 ];
