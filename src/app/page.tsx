@@ -56,10 +56,10 @@ const SEED_PROJECTS = [
     tags: ["Next.js", "TypeScript", "PostgreSQL", "Redis"],
   },
   {
-    name: "Real Estate Lead Management CRM",
-    meta: "PropTech & Sales CRM, 2024",
-    description: "Specialized lead management system and agent assignment pipeline for real estate brokerages, featuring automated portal lead ingestion, inspection scheduling, and deal stage analytics.",
-    tags: ["React", "Node.js", "PostgreSQL", "Docker"],
+    name: "Onset",
+    meta: "Camera Rental Marketplace, 2024",
+    description: "Peer-to-peer and studio camera equipment rental marketplace featuring availability calendars, gear inspection logs, security deposit escrow, and instant booking workflows.",
+    tags: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind CSS"],
   },
   {
     name: "Aparte",
@@ -78,9 +78,9 @@ const TEAM = [
 
 const TESTIMONIALS = [
   {
-    quote: "Thorfin Dev architected and deployed Rydway’s dispatch web engine with Cloudflare Workers and real-time telematics. The system handles fleet routes and booking queues with sub-200ms response times and zero dropped events.",
-    name: "Chris O.",
-    role: "Head of Product, Rydway — SWGlobal",
+    quote: "Thorfin Dev operates with rare engineering rigour and clarity. Whether taking over critical distributed components or executing complex deliverables under tight timelines, their team communicates with complete transparency and ships dependable, production-grade code.",
+    name: "Chris C.",
+    role: "Team Lead, SWGlobal",
   },
   {
     quote: "Scaling our multi-vendor catalog on Ecommerce Hub was seamless. Thorfin built an inventory orchestration and checkout engine that handled our peak flash sales without a single dropped cart session.",
@@ -88,13 +88,13 @@ const TESTIMONIALS = [
     role: "Co-Founder & COO, Viiv Stores",
   },
   {
-    quote: "Thorfin engineered the core ledger and payout pipelines that power Bedrock Finance. Having mathematically verified double-entry accounting and automated reconciliation made our compliance audits completely friction-free.",
+    quote: "Thorfin engineered the financial ledger and automated reconciliation workflows for Bedrock Group with exceptional accuracy. Our daily settlement reports and transaction audits now run without a single discrepancy.",
     name: "Tope A.",
-    role: "CTO, Bedrock Finance",
+    role: "Finance Manager, Bedrock Group",
   },
   {
     quote: "Thorfin transformed our operational workflow from manual inquiries into an automated on-demand booking and billing engine. The customer experience is world-class and our scheduling overhead dropped dramatically.",
-    name: "Favour N.",
+    name: "Favour U.",
     role: "Operations Lead, One and Only Cleaning Services",
   },
 ];

@@ -19,8 +19,8 @@ export const team = [
 ];
 
 export const testimonials = [
-  { quote: "Thorfin Dev architected and deployed Rydway’s dispatch web engine with Cloudflare Workers and real-time telematics. The system handles fleet routes and booking queues with sub-200ms response times and zero dropped events.", name: "Chris O.", role: "Head of Product, Rydway — SWGlobal" },
+  { quote: "Thorfin Dev operates with rare engineering rigour and clarity. Whether taking over critical distributed components or executing complex deliverables under tight timelines, their team communicates with complete transparency and ships dependable, production-grade code.", name: "Chris C.", role: "Team Lead, SWGlobal" },
   { quote: "Scaling our multi-vendor catalog on Ecommerce Hub was seamless. Thorfin built an inventory orchestration and checkout engine that handled our peak flash sales without a single dropped cart session.", name: "Victoria E.", role: "Co-Founder & COO, Viiv Stores" },
-  { quote: "Thorfin engineered the core ledger and payout pipelines that power Bedrock Finance. Having mathematically verified double-entry accounting and automated reconciliation made our compliance audits completely friction-free.", name: "Tope A.", role: "CTO, Bedrock Finance" },
-  { quote: "Thorfin transformed our operational workflow from manual inquiries into an automated on-demand booking and billing engine. The customer experience is world-class and our scheduling overhead dropped dramatically.", name: "Favour N.", role: "Operations Lead, One and Only Cleaning Services" },
+  { quote: "Thorfin engineered the financial ledger and automated reconciliation workflows for Bedrock Group with exceptional accuracy. Our daily settlement reports and transaction audits now run without a single discrepancy.", name: "Tope A.", role: "Finance Manager, Bedrock Group" },
+  { quote: "Thorfin Dev transformed our operational workflow from manual inquiries into an automated on-demand booking and billing engine. The customer experience is world-class and our scheduling overhead dropped dramatically.", name: "Favour U.", role: "Operations Lead, One and Only Cleaning Services" },
 ];
